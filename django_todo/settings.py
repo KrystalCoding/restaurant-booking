@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tqr2nws)zhi@9qy-_!mm-%x-s=ib6yzrr)7298t&_1=$d^)@yo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8004-krystalcoding-restaurant-9v7juf0ksu.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8006-krystalcoding-restaurant-9v7juf0ksu.us2.codeanyapp.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todo',
 ]
 
 MIDDLEWARE = [
